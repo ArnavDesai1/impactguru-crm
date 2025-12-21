@@ -156,9 +156,20 @@ The application manages customers, their orders, and provides role-based access 
    php artisan key:generate
    ```
 
-5. **Run Database Migrations**
+5. **Setup Database - Choose One Method**
+
+   **Option A: Using Migrations (Recommended)**
    ```bash
    php artisan migrate
+   ```
+
+   **Option B: Using Database Dump**
+   ```bash
+   mysql -h 127.0.0.1 -u root -pmysql123 impactguru_crm < database.sql
+   ```
+   First create the database:
+   ```bash
+   mysql -h 127.0.0.1 -u root -pmysql123 -e "CREATE DATABASE IF NOT EXISTS impactguru_crm;"
    ```
 
 6. **Build Frontend Assets**
