@@ -173,6 +173,15 @@ The application manages customers, their orders, and provides role-based access 
 
    Application will be available at `http://127.0.0.1:8000`
 
+### Demo Credentials
+
+After running migrations, use these credentials to log in:
+
+- **Email**: admin@gmail.com
+- **Password**: password
+
+**Note**: The first registered user automatically becomes an **Admin**. Subsequent users are assigned the **Staff** role.
+
 ### User Registration & Role Assignment
 
 - **First User**: Automatically becomes **Admin** 🔐
