@@ -190,6 +190,30 @@ After running migrations, use these credentials to log in:
 
 ---
 
+## 🎬 Screenshots
+
+### Login Page
+![Login Page](screenshots/01-login.png)
+Clean authentication interface with email and password fields. Supports remember me and password reset.
+
+### Admin Dashboard
+![Admin Dashboard](screenshots/02-admin-dashboard.png)
+Comprehensive admin overview showing key metrics: total customers, orders, revenue, system users, pending/completed orders, and recent activity.
+
+### Customer Management
+![Customer Management](screenshots/03-customers-list.png)
+Customer listing with search functionality, pagination, export to CSV/PDF, and quick actions to add, edit, or delete customers.
+
+### Order Management
+![Order Management](screenshots/04-orders-list.png)
+Order listing with status filtering (Pending/Completed/Cancelled), export capabilities, and ability to create new orders linked to customers.
+
+### User Management (Admin Only)
+![User Management](screenshots/05-users-management.png)
+Role assignment interface showing all system users with current roles, ability to edit roles, and clear documentation of admin vs staff permissions.
+
+---
+
 ## 📂 Project Structure
 
 ```
