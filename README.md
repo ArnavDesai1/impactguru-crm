@@ -178,7 +178,7 @@ The application manages customers, their orders, and provides role-based access 
 After running migrations, use these credentials to log in:
 
 - **Email**: admin@gmail.com
-- **Password**: password
+- **Password**: admin123
 
 **Note**: The first registered user automatically becomes an **Admin**. Subsequent users are assigned the **Staff** role.
 
